@@ -1,8 +1,9 @@
-package com.hpe.dna.common;
+package com.hpe.dna.common.utils;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JavaType;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.hpe.dna.common.AppRuntimeException;
 
 import java.io.IOException;
 import java.util.List;
