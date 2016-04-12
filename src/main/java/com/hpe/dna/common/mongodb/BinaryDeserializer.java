@@ -11,10 +11,12 @@ import java.util.Base64;
 
 /**
  * Deserialize the BSON binary data to bytes.
- * <p>
- * { "$binary": "<bindata>", "$type": "<t>" } => bytes[]
- * <p>
- * <bindata> is the base64 representation of a binary string.
+ * <pre>
+ *      {@code
+ *       { "$binary": "<bindata>", "$type": "<t>" } => bytes[]
+ *      }
+ * </pre>
+ * The bindata is the base64 representation of a binary string.
  *
  * @author chun-yang.wang@hpe.com
  */

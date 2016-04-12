@@ -9,7 +9,9 @@ import java.util.Date;
 
 /**
  * Serialises java.util.Date as BSON date.
+ * {@code
  * Date => { "$date": 1393804800000}
+ * }
  *
  * @author chun-yang.wang@hpe.com
  */

@@ -9,10 +9,12 @@ import java.io.IOException;
 
 /**
  * Serializes the bytes to BSON binary data.
- * <p>
- * bytes[] => { "$binary": "<bindata>", "$type": "<t>" }
- * <p>
- * <bindata> is the base64 representation of a binary string.
+ * <pre>
+ *     {@code
+ *      bytes[] => { "$binary": "<bindata>", "$type": "<t>" }
+ *      }
+ * </pre>
+ * bindata is the base64 representation of a binary string.
  * And Jackson also converts byte[] into Base64-encoded binary data automatically.
  *
  * @author chun-yang.wang@hpe.com

@@ -11,7 +11,9 @@ import java.util.Date;
 
 /**
  * Deserialize BSON date to java.util.Date.
+ * {@code
  * { "$date": 1393804800000} => Date
+ * }
  *
  * @author chun-yang.wang@hpe.com
  */
